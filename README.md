@@ -28,13 +28,22 @@ Day 1 - Focus on:
     gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-blog
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
     cd my-blog/
     gatsby develop
+    ```
+
+3.  **Generating static files.**
+
+    Navigate into your new site’s directory and build. This prepares the final structure in the public directory.
+
+    ```shell
+    cd my-blog/
+    npm run build
     ```
 
 
