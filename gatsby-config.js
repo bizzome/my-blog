@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Bizzome Blog`,
     author: {
       name: `Bizzome`,
       summary: `who lives and works in São Paulo building useful things.`,
@@ -102,7 +102,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Bizzome Blog RSS Feed",
           },
         ],
       },
@@ -110,7 +110,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Bizzome Blog`,
         short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,
