@@ -45,7 +45,16 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: actions/download-artifact@v4
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
         with:
           name: public-folder
       # Sync S3 bucket with the public folder
