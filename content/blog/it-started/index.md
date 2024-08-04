@@ -5,7 +5,7 @@ description: "When I realized that I'm not so good."
 ---
 
 # Been a better professional
-#### or When I realized that I'm not so good as a professional.
+#### When I realized that I'm not as awesome as I thought.
 
 This post has two titles because my mind is in chaos.
 I realized that I am not a good professional. I'm a developer and work making things on the web but... not really.
@@ -29,5 +29,5 @@ First, I will use Gatsby (Node.js) as my starter pack on the front-end side.
 For the cloud, I need to learn more about AWS deployment steps, and for CI/CD, I will look for information on GitHub Actions.
 
 
-Udate:
-With this blog project, I learned how to use S3 to store webpage files deploy it, training my skills on github actions to make the whole automated deployment process. Maybe this points could be shared in other posts on this blog.
+## Update 1:
+With this blog project, I learned how to use S3 to store webpage files and deploy it, training my skills on github actions to make the whole automated deployment process. Maybe these points could be shared in other posts on this blog.
