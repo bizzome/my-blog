@@ -27,3 +27,7 @@ To have an online blog, there are some questions that need to be answered:
 
 First, I will use Gatsby (Node.js) as my starter pack on the front-end side.
 For the cloud, I need to learn more about AWS deployment steps, and for CI/CD, I will look for information on GitHub Actions.
+
+
+Udate:
+With this blog project, I learned how to use S3 to store webpage files deploy it, training my skills on github actions to make the whole automated deployment process. Maybe this points could be shared in other posts on this blog.
